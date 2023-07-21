@@ -1,0 +1,21 @@
+Write a C program to input length and width of a rectangle and find area of the given rectangle.
+
+#include <stdio.h>
+#include<math.h>
+int main()
+{
+    float length, width, area;
+
+    printf("Enter length of rectangle: ");
+    scanf("%f", &length);
+    printf("Enter width of rectangle: ");
+    scanf("%f", &width);
+
+      area = length * width;
+
+
+
+    printf("Area of rectangle = %f sq. units ", area);
+
+    return 0;
+}
